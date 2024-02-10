@@ -1,0 +1,19 @@
+:root {
+
+
+    --ligth-color: rgb(233, 213, 255);
+    --dark-color: rgb(230, 76, 202);
+}
+
+* {
+    margin: 0;
+    padding: 100;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    color: var(--dark-color);
+}
+
+body {
+    background-color: var(--ligth-color)
+}
