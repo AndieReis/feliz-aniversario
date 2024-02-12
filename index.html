@@ -8,8 +8,13 @@
 
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/media.css">
 
     <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -28,13 +33,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a href="#content__letter">
                         <i class="fa fa-envelope"></i>
                         <span>Carta</span>
                     </a>
                 </li>
                 <li>
-                    <a href="index.html">
+                    <a href="#photos">
                         <i class="fa fa-camera-retro"></i>
                         <span>Momentos Especiais</span>
                     </a>
@@ -44,33 +49,47 @@
         </nav>
     </header>
 
-    <main class="main__container">
-        <div class="main__container__header">
-            <h1 class="main__container__header__title">Essa página é um presente para você: Feliz Aniversário!!!</h1>
-            <img src="./src/img/feliz-aniversario (2).png" alt="" class="main__container__header__img">
-        </div>
+    <main class="main__container" id="main__container">
+        <section class="main__container__header">
+            <div>
+                <h1 class="main__container__header__title">Essa página é um presente para você:<br>
+                    Feliz Aniversário!!!
+                </h1>
+            </div>
+            <img class="main__container__header__img" src="./src/img/feliz-aniversario.png"
+                alt="Turma do Snoopie desejando feliz aniversário.">
+        </section>
 
-        <div class="main__container__text">
-            <h2 class="main__container_subtitle">Uma Carta Para Você:</h2>
-            <p class="main__container__p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique, cumque.
-                Eveniet ullam magnam molestias, cupiditate omnis provident eius ipsa, ipsum quas voluptas, placeat
-                sapiente quibusdam quod voluptatum reiciendis incidunt praesentium!</p>
-        </div>
+        <section class="content__letter" id="content__letter">
+            <div class="content__letter__text">
+                <h2>Uma Carta Para Você:</h2>
+                <div>
+                    <p>Feliz aniversário para a pessoa mais legal deste planeta, e de todos os outros também!</p>
+                    <p>Que o seu dia e sua vida sejam que nem você: repleta de luz.</p>
+                    <p> por ser essa pessoa maravilhosa, sempre disposta a escutar e compartilhar sua sabedoria.</p>
+                    <p>Você merece o melhor porque você é uma das melhores pessoas que conheço.</p>
+                    <p>Aproveite o seu dia!</p>
+                </div>
+            </div>
+        </section>
 
-        <div class="main__container__photos">
-            <h3 class="main__container__photos">Momentos Especiais</h3>
-            <img src="" alt="" class="photos">
-            <img src="" alt="" class="photos">
-            <img src="" alt="" class="photos">
-            <img src="" alt="" class="photos">
-            <img src="" alt="" class="photos">
-            <img src="" alt="" class="photos">
-        </div>
+        <section class="container__photos" id="photos">
+            <h3 class="container__photos__subtitle">Momentos Especiais</h3>
+
+            <div class="main__container__photos">
+                <img src="./src/img/cintia-apolo.png" alt="" class="photos photo">
+                <img src="./src/img/cintia-tree.png" alt="" class="photos photo">
+                <img src="./src/img/abbey-road.png" alt="" class="photos photo">
+                <img src="./src/img/jenipapo.png" alt="" class="photos photo">
+                <img src="./src/img/nos-mulheres-2.png" alt="" class="photos photo">
+                <img src="./src/img/casal-purple.png" alt="" class="photos photo">
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
 
-        <p class="footer__text">Desenvolvido por Andie Reis 2024</p>
+        <p class="footer__text">Desenvolvido por Andie Reis 2024 &copy;</p>
 
         <div class="social__medias">
 

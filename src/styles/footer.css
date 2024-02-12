@@ -47,7 +47,7 @@
 
 /* github*/
 .containerTwo:hover {
-    background-color: #00acee;
+    background-color: #0d0d0d;
     transition-duration: .3s;
 }
 
@@ -59,7 +59,7 @@
 
 /* Whatsapp*/
 .containerFour:hover {
-    background-color: #128C7E;
+    background-color: #14ae2b;
     transition-duration: .3s;
 }
 
