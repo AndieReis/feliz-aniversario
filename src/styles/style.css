@@ -173,13 +173,13 @@ body {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
     column-gap: 1rem;
-    margin: auto;
-    max-width: 90%;
+    margin: 0 auto;
+    max-width: 80%;
 
 }
 
 .photos {
-    max-width: 20rem;
+    width: 90%;
     height: auto;
     border-radius: 50px;
     background: #e0e0e0;
