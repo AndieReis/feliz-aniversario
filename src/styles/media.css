@@ -68,14 +68,13 @@
 }
 
 @media (min-width:465px) and (max-width:768px) {
-    .header__nav ul {
-        justify-content: center;
-        align-items: center;
-    }
+    .header__nav ul {}
 
     .header__nav span {
         display: none;
     }
+
+
 
     .main__container__header {
         padding-top: 10%;
