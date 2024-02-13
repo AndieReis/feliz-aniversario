@@ -17,6 +17,7 @@
     box-sizing: border-box;
     text-align: center;
     list-style: none;
+
 }
 
 body {
@@ -57,6 +58,10 @@ body {
 
 .header__nav ul li a:hover {
     color: #fff;
+}
+
+.header__nav ul li a:visited {
+    text-decoration: none;
 }
 
 .header__nav .fa {
