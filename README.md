@@ -33,7 +33,7 @@ Veja o projeto rodando aqui:
 [Feliz Aniversário Cíntia!!!](https://feliz-aniversario-cintia.vercel.app/)
 
 [
-![Gif demonstrando a página web](https://github.com/AndieReis/feliz-aniversario/tree/main/src/img/feliz-aniversario.gif)]
+![Gif demonstrando a página web](https://github.com/AndieReis/feliz-aniversario/blob/main/src/img/feliz-aniversario.gif)]
 
 
 
